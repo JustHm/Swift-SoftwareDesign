@@ -46,3 +46,8 @@ SOLID 원칙을 지킴으로써 유지보수가 쉽고, 유연하고, 확장이 
 |                                                                            |                    | 💡 Strategy                |
 |                                                                            |                    | 📝 Template Method         |
 |                                                                            |                    | 🏃 Visitor                 |
+
+---
+**ref**
+- [야곰 아카데미 디자인패턴 강의](https://yagom.net/courses/design-pattern-in-swift/)
+- [Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift)

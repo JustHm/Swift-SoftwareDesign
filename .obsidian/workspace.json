@@ -20,18 +20,6 @@
               "icon": "lucide-file",
               "title": "Builder"
             }
-          },
-          {
-            "id": "553021ddab972406",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "images/Builder-image.png"
-              },
-              "icon": "lucide-image",
-              "title": "Builder-image"
-            }
           }
         ]
       }
@@ -90,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "79df27d326b48abe",
@@ -182,6 +170,7 @@
   },
   "active": "a2394480e91656ea",
   "lastOpenFiles": [
+    "images/Builder-diagram.png",
     "README.md",
     "images/Builder-image.png",
     "Design Pattern/Creational/Builder.md",
