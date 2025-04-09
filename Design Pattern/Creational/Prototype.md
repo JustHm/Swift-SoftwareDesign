@@ -26,6 +26,7 @@
 
 # 사용
 ![diagram](../../images/Prototype-diagram.png)
+
 다이어그램을 보고 먼저 구조를 살펴보자
 - `Copying`은 복사 방법을 선언하는 프로토콜
 - `Prototype`은 `Copying`프로토콜을 채택해 복사를 지원함
