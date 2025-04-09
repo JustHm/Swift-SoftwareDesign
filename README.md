@@ -1,6 +1,6 @@
 
 # SOLID
-![solid-image](https://raw.githubusercontent.com/JustHm/Swift-SoftwareDesign/refs/heads/master/SOLID-image.png)
+![solid-image](./images/SOLID-image.png)
 ## SOLID란? 
 객체 지향 프로그래밍 및 설계의 다섯가지 기본 원칙.
 SOLID 원칙을 지킴으로써 유지보수가 쉽고, 유연하고, 확장이 쉬운 소프트웨어를 만들 수 있습니다.
@@ -23,7 +23,7 @@ SOLID 원칙을 지킴으로써 유지보수가 쉽고, 유연하고, 확장이 
 ---
 # Design Pattern
 
-**디자인 패턴은 소프트웨어 설계에서 자주 마주치는 문제를 해결하기 위한 ‘검증된 설계 방법’**
+> **프로그래밍 설계를 할 때 자주 발생하는 문제들을 해결하기 위해 사용되는 패턴, 구조**
 - **문제 해결을 위한 설계 방식**이지, 코드 조각이 아님
 - 특정 상황에서 검증된 베스트 프랙티스를 정리한 것
 - **재사용 가능**하고, 팀원 간의 **공통된 설계 언어**로 사용 가능
@@ -33,16 +33,16 @@ SOLID 원칙을 지킴으로써 유지보수가 쉽고, 유연하고, 확장이 
 - **구조 패턴:** 구조를 유연하고 효율적으로 유지하면서 객체와 클래스를 더 큰 구조로 조합하는 방법을 설명합니다.
 - **행동 패턴:** 객체 간의 효과적인 의사소통과 책임 할당을 처리합니다.
 
-| Creational (생성)     | Structural (구조)    | Behavioral (행위)            |
-| ------------------- | ------------------ | -------------------------- |
-| 🌰 Abstract Factory | 🔌 Adapter         | 🐝 Chain Of Responsibility |
-| 👷 Builder          | 🌉 Bridge          | 👫 Command                 |
-| 🏭 Factory Method   | 🌿 Composite       | 🎶 Interpreter             |
-| 🔂 Monostate        | 🍧 Decorator       | 🍫 Iterator                |
-| 🃏 Prototype        | 🎁 Façade          | 💐 Mediator                |
-| 💍 Singleton        | 🍃 Flyweight       | 💾 Memento                 |
-|                     | ☔ Protection Proxy | 👓 Observer                |
-|                     | 🍬 Virtual Proxy   | 🐉 State                   |
-|                     |                    | 💡 Strategy                |
-|                     |                    | 📝 Template Method         |
-|                     |                    | 🏃 Visitor                 |
+| Creational (생성)                                                            | Structural (구조)    | Behavioral (행위)            |
+| -------------------------------------------------------------------------- | ------------------ | -------------------------- |
+| [🌰 Abstract Factory](./Design%20Pattern/Creational/Abstract%20Factory.md) | 🔌 Adapter         | 🐝 Chain Of Responsibility |
+| [👷 Builder](./Design%20Pattern/Creational/Builder.md)                     | 🌉 Bridge          | 👫 Command                 |
+| [🏭 Factory Method](./Design%20Pattern/Creational/Factory%20Method.md)     | 🌿 Composite       | 🎶 Interpreter             |
+| [🔂 Monostate](./Design%20Pattern/Creational/Monostate.md)                 | 🍧 Decorator       | 🍫 Iterator                |
+| [🃏 Prototype](./Design%20Pattern/Creational/Prototype.md)                 | 🎁 Façade          | 💐 Mediator                |
+| [💍 Singleton](./Design%20Pattern/Creational/Singleton.md)                 | 🍃 Flyweight       | 💾 Memento                 |
+|                                                                            | ☔ Protection Proxy | 👓 Observer                |
+|                                                                            | 🍬 Virtual Proxy   | 🐉 State                   |
+|                                                                            |                    | 💡 Strategy                |
+|                                                                            |                    | 📝 Template Method         |
+|                                                                            |                    | 🏃 Visitor                 |
